@@ -5,16 +5,8 @@ function Start () {
 
 }
 
-function Update ()
-{
-	if (Input.GetKeyDown(KeyCode.Escape))
-	{
-		PauseCanvas.enabled = true;
-		Time.timeScale = 0;
-		Screen.lockCursor = false;
-		Cursor.visible = true;
-	}
-}
+
+
 
 function ResumeGame () 
 {
